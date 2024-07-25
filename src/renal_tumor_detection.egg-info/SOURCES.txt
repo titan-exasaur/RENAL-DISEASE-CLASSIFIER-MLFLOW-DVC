@@ -7,6 +7,7 @@ src/renal_tumor_detection.egg-info/dependency_links.txt
 src/renal_tumor_detection.egg-info/top_level.txt
 src/renal_tumor_detection/components/__init__.py
 src/renal_tumor_detection/components/data_ingestion.py
+src/renal_tumor_detection/components/prepare_base_model.py
 src/renal_tumor_detection/config/__init__.py
 src/renal_tumor_detection/config/configuration.py
 src/renal_tumor_detection/constants/__init__.py
@@ -14,5 +15,6 @@ src/renal_tumor_detection/entity/__init__.py
 src/renal_tumor_detection/entity/config_entity.py
 src/renal_tumor_detection/pipeline/__init__.py
 src/renal_tumor_detection/pipeline/stage_01_data_ingestion.py
+src/renal_tumor_detection/pipeline/stage_02_prepare_base_model.py
 src/renal_tumor_detection/utils/__init__.py
 src/renal_tumor_detection/utils/common.py
