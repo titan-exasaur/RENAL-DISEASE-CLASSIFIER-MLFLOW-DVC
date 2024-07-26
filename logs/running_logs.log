@@ -159,3 +159,1133 @@ x==========x]
 [2024-07-26 18:06:42,487: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2024-07-26 21:14:44,497: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:14:44,499: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:14:44,501: INFO: common: created directory at: artifacts]
+[2024-07-26 21:15:07,756: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:15:07,760: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:15:07,761: INFO: common: created directory at: artifacts]
+[2024-07-26 21:15:54,526: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:15:54,530: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:15:54,532: INFO: common: created directory at: artifacts]
+[2024-07-26 21:16:32,112: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:16:32,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:16:32,117: INFO: common: created directory at: artifacts]
+[2024-07-26 21:16:40,839: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:16:40,843: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:16:40,844: INFO: common: created directory at: artifacts]
+[2024-07-26 21:17:57,523: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:17:57,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:17:57,528: INFO: common: created directory at: artifacts]
+[2024-07-26 21:18:30,261: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:18:30,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:18:30,266: INFO: common: created directory at: artifacts]
+[2024-07-26 21:18:56,615: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 21:18:57,240: INFO: builder_impl: Assets written to: /tmp/tmphsn8bfeu/model/data/model/assets]
+[2024-07-26 21:46:20,415: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:46:20,419: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:46:20,420: INFO: common: created directory at: artifacts]
+[2024-07-26 21:46:41,913: INFO: common: json file saved at: scores.json]
+[2024-07-26 21:46:45,221: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 21:46:45,746: INFO: builder_impl: Assets written to: /tmp/tmpm045eaj3/model/data/model/assets]
+[2024-07-26 21:51:01,138: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:51:01,142: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:51:01,143: INFO: common: created directory at: artifacts]
+[2024-07-26 21:51:22,016: INFO: common: json file saved at: scores.json]
+[2024-07-26 21:51:25,365: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 21:51:25,873: INFO: builder_impl: Assets written to: /tmp/tmp0qn_piq3/model/data/model/assets]
+[2024-07-26 21:57:54,956: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 21:57:54,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 21:57:54,963: INFO: common: created directory at: artifacts]
+[2024-07-26 21:58:15,984: INFO: common: json file saved at: scores.json]
+[2024-07-26 21:58:19,197: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 21:58:19,715: INFO: builder_impl: Assets written to: /tmp/tmpvw2b8vje/model/data/model/assets]
+[2024-07-26 22:14:03,178: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:14:03,180: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:14:03,181: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:14:03,182: INFO: common: created directory at: artifacts]
+[2024-07-26 22:14:03,182: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:14:03,182: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:14:10,383: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:14:10,742: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:14:10,742: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 22:14:10,744: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:14:10,745: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:14:10,745: INFO: common: created directory at: artifacts]
+[2024-07-26 22:14:10,746: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:14:11,229: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:14:11,471: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:14:11,471: INFO: main: ******************************************]
+[2024-07-26 22:14:11,471: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:14:11,473: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:14:11,474: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:14:11,474: INFO: common: created directory at: artifacts]
+[2024-07-26 22:14:11,474: INFO: common: created directory at: artifacts/training]
+[2024-07-26 22:19:43,684: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 22:19:43,684: INFO: main: ****************************************]
+[2024-07-26 22:19:43,684: INFO: main: >>>>>> stage Evaluation Stage started <<<<<<]
+[2024-07-26 22:19:43,686: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:19:43,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:19:43,688: INFO: common: created directory at: artifacts]
+[2024-07-26 22:20:04,598: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:20:04,598: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:20:06,140: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 22:20:06,647: INFO: builder_impl: Assets written to: /tmp/tmpil62r_sa/model/data/model/assets]
+[2024-07-26 22:20:11,027: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/6080754a036d428a91d8fb163b33d25f/artifacts/model/data]
+[2024-07-26 22:20:11,027: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/6080754a036d428a91d8fb163b33d25f/artifacts/model/data/model]
+[2024-07-26 22:20:11,027: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/6080754a036d428a91d8fb163b33d25f/artifacts/model/data/model/assets]
+[2024-07-26 22:20:11,028: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/6080754a036d428a91d8fb163b33d25f/artifacts/model/data/model/variables]
+[2024-07-26 22:20:11,133: INFO: main: >>>>>> stage Evaluation Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:22:47,361: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:22:47,363: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:22:47,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:22:47,364: INFO: common: created directory at: artifacts]
+[2024-07-26 22:22:47,364: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:22:47,364: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:22:55,875: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:22:56,209: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:22:56,209: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 22:22:56,210: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:22:56,211: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:22:56,211: INFO: common: created directory at: artifacts]
+[2024-07-26 22:22:56,212: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:22:56,662: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:22:56,875: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:22:56,875: INFO: main: ******************************************]
+[2024-07-26 22:22:56,875: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:22:56,877: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:22:56,878: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:22:56,878: INFO: common: created directory at: artifacts]
+[2024-07-26 22:22:56,878: INFO: common: created directory at: artifacts/training]
+[2024-07-26 22:28:23,051: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 22:28:23,051: INFO: main: ****************************************]
+[2024-07-26 22:28:23,051: INFO: main: >>>>>> stage Evaluation Stage started <<<<<<]
+[2024-07-26 22:28:23,053: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:28:23,055: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:28:23,055: INFO: common: created directory at: artifacts]
+[2024-07-26 22:28:44,083: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:28:44,083: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:28:45,482: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 22:28:45,940: INFO: builder_impl: Assets written to: /tmp/tmpndtd5twh/model/data/model/assets]
+[2024-07-26 22:28:50,144: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/53c3d0cce96e4c4b9e810d30cea05a02/artifacts/model/data]
+[2024-07-26 22:28:50,144: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/53c3d0cce96e4c4b9e810d30cea05a02/artifacts/model/data/model]
+[2024-07-26 22:28:50,145: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/53c3d0cce96e4c4b9e810d30cea05a02/artifacts/model/data/model/assets]
+[2024-07-26 22:28:50,145: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/53c3d0cce96e4c4b9e810d30cea05a02/artifacts/model/data/model/variables]
+[2024-07-26 22:28:50,216: INFO: main: >>>>>> stage Evaluation Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:30:49,616: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:30:49,618: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:30:49,619: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:30:49,619: INFO: common: created directory at: artifacts]
+[2024-07-26 22:30:49,619: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:30:49,619: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:30:58,042: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:30:58,391: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:30:58,391: INFO: main: *******************]
+[2024-07-26 22:30:58,391: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-26 22:30:58,393: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:30:58,394: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:30:58,394: INFO: common: created directory at: artifacts]
+[2024-07-26 22:30:58,394: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:30:58,795: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:30:59,027: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-26 22:30:59,027: INFO: main: *******************]
+[2024-07-26 22:30:59,027: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:30:59,029: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:30:59,031: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:30:59,031: INFO: common: created directory at: artifacts]
+[2024-07-26 22:30:59,031: INFO: common: created directory at: artifacts/training]
+[2024-07-26 22:31:57,691: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 22:31:57,691: INFO: main: *******************]
+[2024-07-26 22:31:57,691: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 22:31:57,693: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:31:57,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:31:57,695: INFO: common: created directory at: artifacts]
+[2024-07-26 22:32:17,370: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:32:17,370: INFO: common: json file saved at: scores.json]
+[2024-07-26 22:32:18,534: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 22:32:18,919: INFO: builder_impl: Assets written to: /tmp/tmpwa9z58gt/model/data/model/assets]
+[2024-07-26 22:32:22,613: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/28896a1c4d2749ff911be5db48d522e9/artifacts/model/data]
+[2024-07-26 22:32:22,613: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/28896a1c4d2749ff911be5db48d522e9/artifacts/model/data/model]
+[2024-07-26 22:32:22,613: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/28896a1c4d2749ff911be5db48d522e9/artifacts/model/data/model/assets]
+[2024-07-26 22:32:22,614: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/28896a1c4d2749ff911be5db48d522e9/artifacts/model/data/model/variables]
+[2024-07-26 22:32:22,692: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:34:32,731: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:34:32,733: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:34:32,734: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:34:32,734: INFO: common: created directory at: artifacts]
+[2024-07-26 22:34:32,734: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:34:32,734: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:35:10,633: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:35:10,634: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:35:10,636: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:35:10,636: INFO: common: created directory at: artifacts]
+[2024-07-26 22:35:10,636: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:35:10,636: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:35:59,621: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:35:59,623: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:35:59,624: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:35:59,624: INFO: common: created directory at: artifacts]
+[2024-07-26 22:35:59,624: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:35:59,625: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:36:34,365: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:36:34,368: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:36:34,369: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:36:34,370: INFO: common: created directory at: artifacts]
+[2024-07-26 22:36:34,370: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:36:34,370: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:38:24,657: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:38:24,660: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:38:24,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:38:24,662: INFO: common: created directory at: artifacts]
+[2024-07-26 22:38:24,662: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:38:24,662: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:40:14,718: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:40:14,723: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:40:14,726: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:40:14,726: INFO: common: created directory at: artifacts]
+[2024-07-26 22:40:14,726: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:40:14,727: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:40:46,100: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:40:46,102: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:40:46,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:40:46,104: INFO: common: created directory at: artifacts]
+[2024-07-26 22:40:46,104: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:40:46,104: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:42:41,363: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-26 22:42:41,368: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:42:41,371: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:42:41,371: INFO: common: created directory at: artifacts]
+[2024-07-26 22:42:41,371: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:42:41,372: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    data_ingestion.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:44:44,847: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:44:44,849: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:44:44,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:44:44,851: INFO: common: created directory at: artifacts]
+[2024-07-26 22:44:44,852: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:44:44,852: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:45:27,083: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:45:27,087: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:45:27,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:45:27,090: INFO: common: created directory at: artifacts]
+[2024-07-26 22:45:27,090: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:45:27,090: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 22:46:13,850: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:46:13,853: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:46:13,854: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:46:13,854: INFO: common: created directory at: artifacts]
+[2024-07-26 22:46:13,854: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:46:13,855: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:47:09,712: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:47:09,715: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:47:09,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:47:09,717: INFO: common: created directory at: artifacts]
+[2024-07-26 22:47:09,717: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:47:09,718: ERROR: main: 'DataIngestionConfig' object has no attribute 'source_url']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 29, in download_file
+    raise e
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/data_ingestion.py", line 18, in download_file
+    dataset_url = self.config.source_url
+AttributeError: 'DataIngestionConfig' object has no attribute 'source_url'
+[2024-07-26 22:49:05,072: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:49:05,075: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:49:05,077: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:49:05,077: INFO: common: created directory at: artifacts]
+[2024-07-26 22:49:05,078: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:49:05,078: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 22:49:50,436: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:49:50,439: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:49:50,440: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:49:50,440: INFO: common: created directory at: artifacts]
+[2024-07-26 22:49:50,440: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:49:50,441: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 22:50:19,277: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:50:19,281: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:50:19,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:50:19,284: INFO: common: created directory at: artifacts]
+[2024-07-26 22:50:19,284: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:50:19,284: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 22:51:04,222: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:51:04,225: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:51:04,226: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:51:04,227: INFO: common: created directory at: artifacts]
+[2024-07-26 22:51:04,227: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:51:04,227: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:51:11,618: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:51:12,394: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:51:12,394: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 22:51:12,398: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:51:12,401: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:51:12,401: INFO: common: created directory at: artifacts]
+[2024-07-26 22:51:12,402: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:51:13,089: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:51:13,472: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:51:13,472: INFO: main: ******************************************]
+[2024-07-26 22:51:13,472: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:51:13,474: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:51:13,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:51:13,476: INFO: common: created directory at: artifacts]
+[2024-07-26 22:51:13,476: INFO: common: created directory at: artifacts/training]
+[2024-07-26 22:51:13,921: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_training.py", line 34, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-07-26 22:57:42,107: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:57:42,113: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:57:42,139: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:57:42,140: INFO: common: created directory at: artifacts]
+[2024-07-26 22:57:42,140: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:57:42,140: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:58:08,538: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:58:08,544: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:58:08,547: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:58:08,565: INFO: common: created directory at: artifacts]
+[2024-07-26 22:58:08,565: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:58:08,565: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:58:16,593: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:58:17,359: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:58:17,360: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 22:58:17,368: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:58:17,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:58:17,374: INFO: common: created directory at: artifacts]
+[2024-07-26 22:58:17,375: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:58:19,196: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:58:19,933: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:58:19,933: INFO: main: ******************************************]
+[2024-07-26 22:58:19,933: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:58:19,938: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:58:19,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:58:19,941: INFO: common: created directory at: artifacts]
+[2024-07-26 22:58:19,943: INFO: common: created directory at: artifacts/training]
+[2024-07-26 22:58:21,014: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 33, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_03_model_training.py", line 16, in main
+    training.train_valid_generator()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_training.py", line 34, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-07-26 22:59:08,913: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:59:08,918: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:59:08,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:59:08,946: INFO: common: created directory at: artifacts]
+[2024-07-26 22:59:08,955: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:59:08,956: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 22:59:41,062: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 22:59:41,070: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:59:41,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:59:41,080: INFO: common: created directory at: artifacts]
+[2024-07-26 22:59:41,081: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 22:59:41,081: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:59:49,155: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 22:59:49,933: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:59:49,933: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 22:59:49,937: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:59:49,940: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:59:49,941: INFO: common: created directory at: artifacts]
+[2024-07-26 22:59:49,941: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 22:59:51,061: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 22:59:52,100: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 22:59:52,107: INFO: main: ******************************************]
+[2024-07-26 22:59:52,107: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 22:59:52,120: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 22:59:52,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 22:59:52,134: INFO: common: created directory at: artifacts]
+[2024-07-26 22:59:52,134: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:01:33,060: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:01:33,063: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:01:33,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:01:33,068: INFO: common: created directory at: artifacts]
+[2024-07-26 23:01:33,068: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:01:33,068: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:01:39,422: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:01:39,864: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:01:39,864: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:01:39,866: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:01:39,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:01:39,868: INFO: common: created directory at: artifacts]
+[2024-07-26 23:01:39,868: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:01:40,619: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:01:40,944: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:01:40,945: INFO: main: ******************************************]
+[2024-07-26 23:01:40,945: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:01:40,947: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:01:40,948: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:01:40,948: INFO: common: created directory at: artifacts]
+[2024-07-26 23:01:40,949: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:02:48,161: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:02:48,161: INFO: main: *******************]
+[2024-07-26 23:02:48,161: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:02:48,161: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 46, in <module>
+    model_evalution = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2024-07-26 23:03:24,732: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:03:24,734: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:03:24,735: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:03:24,735: INFO: common: created directory at: artifacts]
+[2024-07-26 23:03:24,735: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:03:24,735: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:03:31,407: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:03:31,856: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:03:31,856: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:03:31,859: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:03:31,861: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:03:31,861: INFO: common: created directory at: artifacts]
+[2024-07-26 23:03:31,861: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:03:32,365: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:03:32,641: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:03:32,641: INFO: main: ******************************************]
+[2024-07-26 23:03:32,641: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:03:32,643: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:03:32,644: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:03:32,644: INFO: common: created directory at: artifacts]
+[2024-07-26 23:03:32,644: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:04:42,782: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:04:42,783: INFO: main: *******************]
+[2024-07-26 23:04:42,783: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:04:42,785: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:04:42,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:04:42,786: INFO: common: created directory at: artifacts]
+[2024-07-26 23:04:43,167: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_evalution.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.evaluation()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_evaluation_mlflow.py", line 47, in evaluation
+    self._valid_generator()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_evaluation_mlflow.py", line 32, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-07-26 23:06:26,622: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:06:26,625: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:06:26,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:06:26,627: INFO: common: created directory at: artifacts]
+[2024-07-26 23:06:26,627: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:06:26,627: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:06:36,428: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:06:36,905: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:06:36,905: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:06:36,907: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:06:36,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:06:36,909: INFO: common: created directory at: artifacts]
+[2024-07-26 23:06:36,909: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:06:37,474: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:06:37,743: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:06:37,743: INFO: main: ******************************************]
+[2024-07-26 23:06:37,743: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:06:37,745: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:06:37,747: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:06:37,747: INFO: common: created directory at: artifacts]
+[2024-07-26 23:06:37,747: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:08:12,270: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:08:12,270: INFO: main: *******************]
+[2024-07-26 23:08:12,270: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:08:12,273: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:08:12,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:08:12,275: INFO: common: created directory at: artifacts]
+[2024-07-26 23:08:12,635: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_evalution.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_04_model_evaluation.py", line 18, in main
+    evaluation.evaluation()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_evaluation_mlflow.py", line 47, in evaluation
+    self._valid_generator()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/components/model_evaluation_mlflow.py", line 32, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/keras/preprocessing/image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-07-26 23:10:42,167: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:10:42,168: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:10:42,169: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:10:42,170: INFO: common: created directory at: artifacts]
+[2024-07-26 23:10:42,170: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:10:42,170: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "main.py", line 11, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 23:11:05,648: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:11:05,650: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:11:05,651: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:11:05,651: INFO: common: created directory at: artifacts]
+[2024-07-26 23:11:05,651: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:11:05,651: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:11:21,841: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:11:22,218: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:11:22,218: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:11:22,220: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:11:22,222: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:11:22,222: INFO: common: created directory at: artifacts]
+[2024-07-26 23:11:22,222: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:11:22,658: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:11:22,908: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:11:22,908: INFO: main: ******************************************]
+[2024-07-26 23:11:22,908: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:11:22,910: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:11:22,911: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:11:22,911: INFO: common: created directory at: artifacts]
+[2024-07-26 23:11:22,911: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:12:34,218: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:12:34,219: INFO: main: *******************]
+[2024-07-26 23:12:34,219: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:12:34,221: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:12:34,222: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:12:34,223: INFO: common: created directory at: artifacts]
+[2024-07-26 23:12:57,737: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:12:57,738: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:12:57,738: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:14:58,344: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:14:58,346: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:14:58,347: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:14:58,347: INFO: common: created directory at: artifacts]
+[2024-07-26 23:14:58,347: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:14:58,348: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:15:07,645: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:15:07,951: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:15:07,952: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:15:07,954: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:15:07,955: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:15:07,955: INFO: common: created directory at: artifacts]
+[2024-07-26 23:15:07,955: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:15:08,342: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:15:08,540: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:15:08,540: INFO: main: ******************************************]
+[2024-07-26 23:15:08,541: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:15:08,542: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:15:08,543: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:15:08,544: INFO: common: created directory at: artifacts]
+[2024-07-26 23:15:08,544: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:16:11,107: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:16:11,107: INFO: main: *******************]
+[2024-07-26 23:16:11,107: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:16:11,109: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:16:11,110: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:16:11,111: INFO: common: created directory at: artifacts]
+[2024-07-26 23:16:30,538: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:16:30,538: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:16:30,538: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:19:32,715: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:19:32,717: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:19:32,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:19:32,719: INFO: common: created directory at: artifacts]
+[2024-07-26 23:19:32,719: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:19:32,719: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:19:50,273: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:19:50,594: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:19:50,595: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:19:50,596: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:19:50,597: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:19:50,597: INFO: common: created directory at: artifacts]
+[2024-07-26 23:19:50,597: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:19:50,983: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:19:51,210: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:19:51,210: INFO: main: ******************************************]
+[2024-07-26 23:19:51,210: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:19:51,212: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:19:51,213: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:19:51,213: INFO: common: created directory at: artifacts]
+[2024-07-26 23:19:51,213: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:20:47,587: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:20:47,588: INFO: main: *******************]
+[2024-07-26 23:20:47,588: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:20:47,591: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:20:47,593: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:20:47,593: INFO: common: created directory at: artifacts]
+[2024-07-26 23:21:06,856: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:21:06,856: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:21:06,856: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:25:53,735: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:25:53,737: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:25:53,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:25:53,738: INFO: common: created directory at: artifacts]
+[2024-07-26 23:25:53,738: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:25:53,738: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:26:00,973: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:26:01,311: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:26:01,311: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:26:01,313: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:26:01,314: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:26:01,314: INFO: common: created directory at: artifacts]
+[2024-07-26 23:26:01,314: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:26:01,694: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:26:01,909: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:26:01,909: INFO: main: ******************************************]
+[2024-07-26 23:26:01,909: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:26:01,911: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:26:01,912: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:26:01,912: INFO: common: created directory at: artifacts]
+[2024-07-26 23:26:01,912: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:27:04,012: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:27:04,012: INFO: main: *******************]
+[2024-07-26 23:27:04,012: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:27:04,014: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:27:04,016: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:27:04,016: INFO: common: created directory at: artifacts]
+[2024-07-26 23:27:24,097: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:27:24,097: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:27:24,097: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:35:19,134: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:35:19,136: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:35:19,137: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:35:19,137: INFO: common: created directory at: artifacts]
+[2024-07-26 23:35:19,138: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:35:19,138: ERROR: main: __init__() got an unexpected keyword argument 'source_URL']
+Traceback (most recent call last):
+  File "/home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/main.py", line 11, in <module>
+    obj.main()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "/home/kumar/anaconda3/envs/kidney/lib/python3.8/site-packages/renal_tumor_detection/config/configuration.py", line 28, in get_data_ingestion_config
+    data_ingestion_config = DataIngestionConfig(
+TypeError: __init__() got an unexpected keyword argument 'source_URL'
+[2024-07-26 23:35:36,529: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:35:36,530: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:35:36,532: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:35:36,532: INFO: common: created directory at: artifacts]
+[2024-07-26 23:35:36,532: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:35:36,532: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:35:44,367: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:35:44,703: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:35:44,703: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:35:44,705: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:35:44,706: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:35:44,706: INFO: common: created directory at: artifacts]
+[2024-07-26 23:35:44,706: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:35:45,089: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:35:45,317: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:35:45,317: INFO: main: ******************************************]
+[2024-07-26 23:35:45,317: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:35:45,318: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:35:45,320: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:35:45,320: INFO: common: created directory at: artifacts]
+[2024-07-26 23:35:45,320: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:36:55,737: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:36:55,737: INFO: main: *******************]
+[2024-07-26 23:36:55,737: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:36:55,740: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:36:55,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:36:55,742: INFO: common: created directory at: artifacts]
+[2024-07-26 23:37:20,686: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:37:20,686: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:37:22,153: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:37:22,685: INFO: builder_impl: Assets written to: /tmp/tmpfizunanh/model/data/model/assets]
+[2024-07-26 23:37:26,618: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/edcb006c1c04463c93b02d35046f6c6c/artifacts/model/data]
+[2024-07-26 23:37:26,618: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/edcb006c1c04463c93b02d35046f6c6c/artifacts/model/data/model]
+[2024-07-26 23:37:26,619: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/edcb006c1c04463c93b02d35046f6c6c/artifacts/model/data/model/assets]
+[2024-07-26 23:37:26,620: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/edcb006c1c04463c93b02d35046f6c6c/artifacts/model/data/model/variables]
+[2024-07-26 23:37:26,714: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:39:21,970: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:39:21,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:39:21,994: INFO: common: created directory at: artifacts]
+[2024-07-26 23:39:47,032: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:39:48,810: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:39:49,472: INFO: builder_impl: Assets written to: /tmp/tmpla9lgbrh/model/data/model/assets]
+[2024-07-26 23:39:54,921: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/7c0fb49bc5274d47b9d192a422983c48/artifacts/model/data]
+[2024-07-26 23:39:54,922: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/7c0fb49bc5274d47b9d192a422983c48/artifacts/model/data/model]
+[2024-07-26 23:39:54,923: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/7c0fb49bc5274d47b9d192a422983c48/artifacts/model/data/model/assets]
+[2024-07-26 23:39:54,925: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/7c0fb49bc5274d47b9d192a422983c48/artifacts/model/data/model/variables]
+[2024-07-26 23:41:27,748: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:41:27,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:41:27,752: INFO: common: created directory at: artifacts]
+[2024-07-26 23:41:49,393: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:41:53,202: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:41:53,639: INFO: builder_impl: Assets written to: /tmp/tmpsa4sm9_u/model/data/model/assets]
+[2024-07-26 23:43:49,202: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:43:49,204: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:43:49,205: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:43:49,206: INFO: common: created directory at: artifacts]
+[2024-07-26 23:43:49,206: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:43:49,206: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:43:59,857: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:44:00,167: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:44:00,167: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:44:00,168: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:44:00,169: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:44:00,169: INFO: common: created directory at: artifacts]
+[2024-07-26 23:44:00,169: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:44:00,566: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:44:00,777: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:44:00,778: INFO: main: ******************************************]
+[2024-07-26 23:44:00,778: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:44:00,779: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:44:00,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:44:00,780: INFO: common: created directory at: artifacts]
+[2024-07-26 23:44:00,781: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:44:57,961: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:44:57,962: INFO: main: *******************]
+[2024-07-26 23:44:57,962: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:44:57,964: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:44:57,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:44:57,966: INFO: common: created directory at: artifacts]
+[2024-07-26 23:45:17,512: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:45:17,512: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:45:18,767: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:45:19,173: INFO: builder_impl: Assets written to: /tmp/tmp8f8yvg_0/model/data/model/assets]
+[2024-07-26 23:45:22,941: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/1fa0aeb22d074b9ea70e332fd6a23d88/artifacts/model/data]
+[2024-07-26 23:45:22,941: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/1fa0aeb22d074b9ea70e332fd6a23d88/artifacts/model/data/model]
+[2024-07-26 23:45:22,941: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/1fa0aeb22d074b9ea70e332fd6a23d88/artifacts/model/data/model/assets]
+[2024-07-26 23:45:22,942: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/1fa0aeb22d074b9ea70e332fd6a23d88/artifacts/model/data/model/variables]
+[2024-07-26 23:45:23,017: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:47:26,231: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:47:26,233: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:47:26,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:47:26,234: INFO: common: created directory at: artifacts]
+[2024-07-26 23:47:26,234: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:47:26,235: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:47:37,709: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:47:38,076: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:47:38,077: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:47:38,079: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:47:38,081: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:47:38,081: INFO: common: created directory at: artifacts]
+[2024-07-26 23:47:38,081: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:47:38,506: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:47:38,736: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:47:38,736: INFO: main: ******************************************]
+[2024-07-26 23:47:38,736: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:47:38,737: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:47:38,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:47:38,739: INFO: common: created directory at: artifacts]
+[2024-07-26 23:47:38,739: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:48:39,559: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:48:39,559: INFO: main: *******************]
+[2024-07-26 23:48:39,559: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:48:39,561: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:48:39,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:48:39,563: INFO: common: created directory at: artifacts]
+[2024-07-26 23:48:59,753: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:48:59,754: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:49:01,127: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:49:01,570: INFO: builder_impl: Assets written to: /tmp/tmp0jxdgixo/model/data/model/assets]
+[2024-07-26 23:49:05,681: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/47ae2e3519834bf4b7ac1b482b867b44/artifacts/model/data]
+[2024-07-26 23:49:05,681: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/47ae2e3519834bf4b7ac1b482b867b44/artifacts/model/data/model]
+[2024-07-26 23:49:05,681: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/47ae2e3519834bf4b7ac1b482b867b44/artifacts/model/data/model/assets]
+[2024-07-26 23:49:05,682: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/47ae2e3519834bf4b7ac1b482b867b44/artifacts/model/data/model/variables]
+[2024-07-26 23:49:05,754: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:49:41,423: INFO: stage_04_model_evaluation: *******************]
+[2024-07-26 23:49:41,423: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:49:41,425: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:49:41,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:49:41,426: INFO: common: created directory at: artifacts]
+[2024-07-26 23:50:01,462: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:50:01,463: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:50:05,258: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:50:05,708: INFO: builder_impl: Assets written to: /tmp/tmpu4pgium_/model/data/model/assets]
+[2024-07-26 23:50:29,992: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:52:38,916: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:52:38,918: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:52:38,919: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:52:38,919: INFO: common: created directory at: artifacts]
+[2024-07-26 23:52:38,920: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:52:38,920: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:52:46,633: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:52:46,967: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:52:46,968: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:52:46,969: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:52:46,970: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:52:46,970: INFO: common: created directory at: artifacts]
+[2024-07-26 23:52:46,970: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:52:47,352: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:52:47,569: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:52:47,569: INFO: main: ******************************************]
+[2024-07-26 23:52:47,569: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:52:47,571: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:52:47,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:52:47,572: INFO: common: created directory at: artifacts]
+[2024-07-26 23:52:47,572: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:53:46,035: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:53:46,036: INFO: main: *******************]
+[2024-07-26 23:53:46,036: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:53:46,038: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:53:46,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:53:46,040: INFO: common: created directory at: artifacts]
+[2024-07-26 23:54:05,482: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:54:05,483: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:54:06,655: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:54:07,055: INFO: builder_impl: Assets written to: /tmp/tmpq0lr0ja8/model/data/model/assets]
+[2024-07-26 23:54:10,718: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/cbbd5088b28c4a0d843e6a28b323ddcc/artifacts/model/data]
+[2024-07-26 23:54:10,718: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/cbbd5088b28c4a0d843e6a28b323ddcc/artifacts/model/data/model]
+[2024-07-26 23:54:10,718: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/cbbd5088b28c4a0d843e6a28b323ddcc/artifacts/model/data/model/assets]
+[2024-07-26 23:54:10,720: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/cbbd5088b28c4a0d843e6a28b323ddcc/artifacts/model/data/model/variables]
+[2024-07-26 23:54:10,795: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:56:56,910: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:56:56,912: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:56:56,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:56:56,914: INFO: common: created directory at: artifacts]
+[2024-07-26 23:56:56,914: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:56:56,914: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:57:11,938: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-26 23:57:12,288: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:57:12,288: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-26 23:57:12,289: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:57:12,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:57:12,291: INFO: common: created directory at: artifacts]
+[2024-07-26 23:57:12,291: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-26 23:57:12,707: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-26 23:57:12,936: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:57:12,936: INFO: main: ******************************************]
+[2024-07-26 23:57:12,936: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-26 23:57:12,937: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:57:12,938: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:57:12,939: INFO: common: created directory at: artifacts]
+[2024-07-26 23:57:12,939: INFO: common: created directory at: artifacts/training]
+[2024-07-26 23:58:20,703: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-26 23:58:20,704: INFO: main: *******************]
+[2024-07-26 23:58:20,704: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-26 23:58:20,706: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:58:20,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:58:20,708: INFO: common: created directory at: artifacts]
+[2024-07-26 23:58:41,234: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:58:41,235: INFO: common: json file saved at: scores.json]
+[2024-07-26 23:58:42,809: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-26 23:58:43,219: INFO: builder_impl: Assets written to: /tmp/tmpeceamfmy/model/data/model/assets]
+[2024-07-26 23:58:47,483: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2c04e0de167f4b58968f83eea23bbf07/artifacts/model/data]
+[2024-07-26 23:58:47,484: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2c04e0de167f4b58968f83eea23bbf07/artifacts/model/data/model]
+[2024-07-26 23:58:47,484: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2c04e0de167f4b58968f83eea23bbf07/artifacts/model/data/model/assets]
+[2024-07-26 23:58:47,485: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2c04e0de167f4b58968f83eea23bbf07/artifacts/model/data/model/variables]
+[2024-07-26 23:58:47,589: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-26 23:59:57,888: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-26 23:59:57,890: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-26 23:59:57,891: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-26 23:59:57,892: INFO: common: created directory at: artifacts]
+[2024-07-26 23:59:57,892: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-26 23:59:57,892: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-27 00:00:05,265: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-27 00:00:05,607: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-27 00:00:05,607: INFO: main: >>>>>> stage Prepare base model stage started <<<<<<]
+[2024-07-27 00:00:05,609: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-27 00:00:05,610: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-27 00:00:05,610: INFO: common: created directory at: artifacts]
+[2024-07-27 00:00:05,610: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-27 00:00:06,023: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-27 00:00:06,265: INFO: main: >>>>>> stage Prepare base model stage completed <<<<<<
+
+x==========x]
+[2024-07-27 00:00:06,266: INFO: main: ******************************************]
+[2024-07-27 00:00:06,266: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-07-27 00:00:06,268: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-27 00:00:06,270: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-27 00:00:06,270: INFO: common: created directory at: artifacts]
+[2024-07-27 00:00:06,271: INFO: common: created directory at: artifacts/training]
+[2024-07-27 00:01:04,823: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-27 00:01:04,823: INFO: main: *******************]
+[2024-07-27 00:01:04,823: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-27 00:01:04,825: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-27 00:01:04,827: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-27 00:01:04,827: INFO: common: created directory at: artifacts]
+[2024-07-27 00:01:24,267: INFO: common: json file saved at: scores.json]
+[2024-07-27 00:01:24,268: INFO: common: json file saved at: scores.json]
+[2024-07-27 00:01:25,499: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-27 00:01:25,929: INFO: builder_impl: Assets written to: /tmp/tmpea3sathg/model/data/model/assets]
+[2024-07-27 00:01:29,658: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2597fa52aa024652bd08ea100e2ebf47/artifacts/model/data]
+[2024-07-27 00:01:29,659: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2597fa52aa024652bd08ea100e2ebf47/artifacts/model/data/model]
+[2024-07-27 00:01:29,659: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2597fa52aa024652bd08ea100e2ebf47/artifacts/model/data/model/assets]
+[2024-07-27 00:01:29,660: INFO: dir_util: creating /home/kumar/Documents/NEW JOB/UPSKILL/10 PERSONAL PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2597fa52aa024652bd08ea100e2ebf47/artifacts/model/data/model/variables]
+[2024-07-27 00:01:29,754: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

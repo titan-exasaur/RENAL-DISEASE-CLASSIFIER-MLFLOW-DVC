@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kumar/Documents/NEW%20JOB/UPSKILL/10%20PERSONAL%20PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/cbbd5088b28c4a0d843e6a28b323ddcc/artifacts
+end_time: 1722018250794
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbbd5088b28c4a0d843e6a28b323ddcc
+run_name: rare-zebra-61
+run_uuid: cbbd5088b28c4a0d843e6a28b323ddcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722018245681
+status: 3
+tags: []
+user_id: kumar

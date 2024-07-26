@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kumar/Documents/NEW%20JOB/UPSKILL/10%20PERSONAL%20PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/2c04e0de167f4b58968f83eea23bbf07/artifacts
+end_time: 1722018527588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c04e0de167f4b58968f83eea23bbf07
+run_name: sincere-wolf-444
+run_uuid: 2c04e0de167f4b58968f83eea23bbf07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722018521464
+status: 3
+tags: []
+user_id: kumar

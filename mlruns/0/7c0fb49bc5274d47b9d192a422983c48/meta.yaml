@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kumar/Documents/NEW%20JOB/UPSKILL/10%20PERSONAL%20PROJECTS/RENAL-TUMOR-CLASSIFICATION/mlruns/0/7c0fb49bc5274d47b9d192a422983c48/artifacts
+end_time: 1722017395005
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c0fb49bc5274d47b9d192a422983c48
+run_name: upset-asp-732
+run_uuid: 7c0fb49bc5274d47b9d192a422983c48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722017387278
+status: 3
+tags: []
+user_id: kumar
