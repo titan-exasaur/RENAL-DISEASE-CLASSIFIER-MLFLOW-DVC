@@ -15,3 +15,15 @@
 
 
 ## Dataset : https://drive.google.com/file/d/1Mg6Gv7-sPl54NUL9Jx4h9_2dI943W4Ii/view?usp=sharing
+
+## MODEL DEPLOYMENT
+1. Build docker image for the source code
+
+2. Push the docker image to ECR
+
+3. Launch EC2 instance
+
+4. Pull the image from ECR in EC2
+
+5. Launch docker image in EC2
+
