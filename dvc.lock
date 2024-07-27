@@ -1,0 +1,113 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/renal_tumor_detection/pipeline/stage_01_data_ingestion.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 093bfa0b66ac7647b8b99b191e04fffc
+      size: 562
+    - path: src/renal_tumor_detection/pipeline/stage_01_data_ingestion.py
+      hash: md5
+      md5: 1e82bdfa4e13883bf1c0e061a278f804
+      size: 909
+    outs:
+    - path: artifacts/data_ingestion/kidney_ct_data
+      hash: md5
+      md5: 3c4afcd47ddb723b90d1483ce19e3eff.dir
+      size: 47352873
+      nfiles: 399
+  prepare_base_model:
+    cmd: python src/renal_tumor_detection/pipeline/stage_02_prepare_base_model.py
+    deps:
+    - path: config/config.yaml
+      hash: md5
+      md5: 093bfa0b66ac7647b8b99b191e04fffc
+      size: 562
+    - path: src/renal_tumor_detection/pipeline/stage_02_prepare_base_model.py
+      hash: md5
+      md5: dbc358f05cbc32dd2a0cdf73854b71d9
+      size: 1070
+    params:
+      params.yaml:
+        CLASSES: 2
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+        INCLUDE_TOP: false
+        LEARNING_RATE: 0.01
+        WEIGHTS: imagenet
+    outs:
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: bbbbe2ffc4e954f19684ab7bb6b356c6.dir
+      size: 118054560
+      nfiles: 2
+  training:
+    cmd: python src/renal_tumor_detection/pipeline/stage_03_model_training.py
+    deps:
+    - path: artifacts/data_ingestion/kidney_ct_data
+      hash: md5
+      md5: 3c4afcd47ddb723b90d1483ce19e3eff.dir
+      size: 47352873
+      nfiles: 399
+    - path: artifacts/prepare_base_model
+      hash: md5
+      md5: bbbbe2ffc4e954f19684ab7bb6b356c6.dir
+      size: 118054560
+      nfiles: 2
+    - path: config/config.yaml
+      hash: md5
+      md5: 093bfa0b66ac7647b8b99b191e04fffc
+      size: 562
+    - path: src/renal_tumor_detection/pipeline/stage_03_model_training.py
+      hash: md5
+      md5: 462529d3c85c2df82ead884eab4068c6
+      size: 923
+    params:
+      params.yaml:
+        AUGMENTATION: false
+        BATCH_SIZE: 16
+        EPOCHS: 1
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+    outs:
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 896840ff4bbfbed7d3c7be47cd52247c
+      size: 59337520
+  evaluation:
+    cmd: python src/renal_tumor_detection/pipeline/stage_04_model_evaluation.py
+    deps:
+    - path: artifacts/data_ingestion/kidney_ct_data
+      hash: md5
+      md5: 3c4afcd47ddb723b90d1483ce19e3eff.dir
+      size: 47352873
+      nfiles: 399
+    - path: artifacts/training/model.h5
+      hash: md5
+      md5: 896840ff4bbfbed7d3c7be47cd52247c
+      size: 59337520
+    - path: config/config.yaml
+      hash: md5
+      md5: 093bfa0b66ac7647b8b99b191e04fffc
+      size: 562
+    - path: src/renal_tumor_detection/pipeline/stage_04_model_evaluation.py
+      hash: md5
+      md5: 126bfbf3e0add1e4fcfe323ad044bb76
+      size: 1386
+    params:
+      params.yaml:
+        BATCH_SIZE: 16
+        IMAGE_SIZE:
+        - 224
+        - 224
+        - 3
+    outs:
+    - path: scores.json
+      hash: md5
+      md5: 9655824a4eaf9f6ef8ab9939e8ad7ec4
+      size: 72

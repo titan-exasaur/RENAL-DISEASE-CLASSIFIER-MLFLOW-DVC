@@ -19,7 +19,8 @@
 ## MODEL DEPLOYMENT
 1. Build docker image for the source code
 
-2. Push the docker image to ECR
+2. Push the docker image to ECR : 851725241660.dkr.ecr.eu-north-1.amazonaws.com/kidney_disease
+stockholm
 
 3. Launch EC2 instance
 
