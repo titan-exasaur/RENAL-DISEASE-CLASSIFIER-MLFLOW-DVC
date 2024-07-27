@@ -17,7 +17,8 @@ class EvaluationPipeline:
             os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/tinytachyon14341/RENAL-DISEASE-CLASSIFIER-MLFLOW-DVC.mlflow"
             os.environ["MLFLOW_TRACKING_USERNAME"] = "tinytachyon14341"
             os.environ["MLFLOW_TRACKING_PASSWORD"] = "f7f82fe5075a413434f0e5cd779d34f62dd5fd9d"
-            
+
+
             logger.info("Environment variables set for MLflow.")
             logger.info(f"MLFLOW_TRACKING_URI: {os.environ['MLFLOW_TRACKING_URI']}")
             logger.info(f"MLFLOW_TRACKING_USERNAME: {os.environ['MLFLOW_TRACKING_USERNAME']}")
