@@ -16,6 +16,7 @@ src/renal_tumor_detection/constants/__init__.py
 src/renal_tumor_detection/entity/__init__.py
 src/renal_tumor_detection/entity/config_entity.py
 src/renal_tumor_detection/pipeline/__init__.py
+src/renal_tumor_detection/pipeline/prediction.py
 src/renal_tumor_detection/pipeline/stage_01_data_ingestion.py
 src/renal_tumor_detection/pipeline/stage_02_prepare_base_model.py
 src/renal_tumor_detection/pipeline/stage_03_model_training.py
