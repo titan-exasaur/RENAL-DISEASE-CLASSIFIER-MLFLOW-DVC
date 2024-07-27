@@ -36,7 +36,7 @@ class EvaluationPipeline:
             logger.info("Score saved.")
             
             logger.info("Logging into MLflow.")
-            evaluation.log_into_mlflow()
+            #evaluation.log_into_mlflow()
             logger.info("Logged into MLflow.")
 
 
